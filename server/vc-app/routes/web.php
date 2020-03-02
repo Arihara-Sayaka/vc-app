@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+route::get('message/hello', 'MessageController@hello');
+route::get('message/good', 'MessageController@good');
