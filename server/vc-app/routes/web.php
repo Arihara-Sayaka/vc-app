@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 route::get('message/hello', 'MessageController@hello');
 route::get('message/good', 'MessageController@good');
+route::get('introduction/name', 'IntroductionController@name');
